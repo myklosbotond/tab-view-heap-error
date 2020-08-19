@@ -1501,6 +1501,40 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
+"@react-navigation/core@^5.12.3":
+  version "5.12.3"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/@react-navigation/core/-/core-5.12.3.tgz#0484fcca290569a0dc10b70b99f00edd3f1fd93c"
+  integrity sha1-BIT8yikFaaDcELcLmfAO3T8f2Tw=
+  dependencies:
+    "@react-navigation/routers" "^5.4.11"
+    escape-string-regexp "^4.0.0"
+    nanoid "^3.1.12"
+    query-string "^6.13.1"
+    react-is "^16.13.0"
+    use-subscription "^1.4.0"
+
+"@react-navigation/material-top-tabs@^5.1.14":
+  version "5.2.16"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/@react-navigation/material-top-tabs/-/material-top-tabs-5.2.16.tgz#96a366f9b2c257c9b46f889b95e4fcb2a9ff0a56"
+  integrity sha1-lqNm+bLCV8m0b4ibleT8sqn/ClY=
+  dependencies:
+    color "^3.1.2"
+
+"@react-navigation/native@^5.2.3":
+  version "5.7.3"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/@react-navigation/native/-/native-5.7.3.tgz#3cda5ee7b0fe0d980db6d788419f0af50a64deac"
+  integrity sha1-PNpe57D+DZgNtteIQZ8K9Qpk3qw=
+  dependencies:
+    "@react-navigation/core" "^5.12.3"
+    nanoid "^3.1.12"
+
+"@react-navigation/routers@^5.4.11":
+  version "5.4.11"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/@react-navigation/routers/-/routers-5.4.11.tgz#75dbec1809e282c3749068845099c5bee2c792f0"
+  integrity sha1-ddvsGAnigsN0kGiEUJnFvuLHkvA=
+  dependencies:
+    nanoid "^3.1.12"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
@@ -2401,7 +2435,7 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.9.0:
+color-convert@^1.9.0, color-convert@^1.9.1:
   version "1.9.3"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
   integrity sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg=
@@ -2425,7 +2459,7 @@ color-name@^1.0.0, color-name@~1.1.4:
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
 
-color-string@^1.5.3:
+color-string@^1.5.2, color-string@^1.5.3:
   version "1.5.3"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/color-string/-/color-string-1.5.3.tgz#c9bbc5f01b58b5492f3d6857459cb6590ce204cc"
   integrity sha1-ybvF8BtYtUkvPWhXRZy2WQziBMw=
@@ -2437,6 +2471,14 @@ color-support@^1.1.3:
   version "1.1.3"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha1-k4NDeaHMmgxh+C9S8NBDIiUb1aI=
+
+color@^3.1.2:
+  version "3.1.2"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/color/-/color-3.1.2.tgz#68148e7f85d41ad7649c5fa8c8106f098d229e10"
+  integrity sha1-aBSOf4XUGtdknF+oyBBvCY0inhA=
+  dependencies:
+    color-convert "^1.9.1"
+    color-string "^1.5.2"
 
 colorette@^1.0.7:
   version "1.2.1"
@@ -2928,6 +2970,11 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha1-FLqDpdNz49MR5a/KKc9b+tllvzQ=
 
 escodegen@^1.11.1:
   version "1.14.3"
@@ -5293,6 +5340,11 @@ nan@^2.12.1:
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
   integrity sha1-174036MQW5FJTDFHCJMV7/iHSwE=
 
+nanoid@^3.1.12:
+  version "3.1.12"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/nanoid/-/nanoid-3.1.12.tgz#6f7736c62e8d39421601e4a0c77623a97ea69654"
+  integrity sha1-b3c2xi6NOUIWAeSgx3YjqX6mllQ=
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -5876,6 +5928,15 @@ qs@~6.5.2:
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
 
+query-string@^6.13.1:
+  version "6.13.1"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/query-string/-/query-string-6.13.1.tgz#d913ccfce3b4b3a713989fe6d39466d92e71ccad"
+  integrity sha1-2RPM/OO0s6cTmJ/m05Rm2S5xzK0=
+  dependencies:
+    decode-uri-component "^0.2.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
 querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
@@ -5904,7 +5965,7 @@ react-dom@~16.11.0:
     prop-types "^15.6.2"
     scheduler "^0.17.0"
 
-react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
+react-is@^16.12.0, react-is@^16.13.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
@@ -5944,6 +6005,11 @@ react-native-screens@~2.9.0:
   version "2.9.0"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/react-native-screens/-/react-native-screens-2.9.0.tgz#ead2843107ba00fee259aa377582e457c74f1f3b"
   integrity sha1-6tKEMQe6AP7iWao3dYLkV8dPHzs=
+
+react-native-tab-view@^2.15.1:
+  version "2.15.1"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/react-native-tab-view/-/react-native-tab-view-2.15.1.tgz#cf4df4ffdec504263a2e06a6becd8831b9a19ad9"
+  integrity sha1-z030/97FBCY6Lgamvs2IMbmhmtk=
 
 react-native-unimodules@~0.10.1:
   version "0.10.1"
@@ -6663,6 +6729,11 @@ spdx-license-ids@^3.0.0:
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/spdx-license-ids/-/spdx-license-ids-3.0.5.tgz#3694b5804567a458d3c8045842a6358632f62654"
   integrity sha1-NpS1gEVnpFjTyARYQqY1hjL2JlQ=
 
+split-on-first@^1.0.0:
+  version "1.1.0"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+  integrity sha1-9hCv7uOxK84dDDBCXnY5i3gkml8=
+
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/split-string/-/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
@@ -6724,6 +6795,11 @@ stream-buffers@~2.2.0:
   version "2.2.0"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/stream-buffers/-/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
   integrity sha1-kdX1Ew0c75bc+n9yaUUYh0HQnuQ=
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
 
 string-length@^3.1.0:
   version "3.1.0"
@@ -7203,7 +7279,7 @@ url-parse@^1.4.4:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-use-subscription@^1.0.0:
+use-subscription@^1.0.0, use-subscription@^1.4.0:
   version "1.4.1"
   resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/use-subscription/-/use-subscription-1.4.1.tgz#edcbcc220f1adb2dd4fa0b2f61b6cc308e620069"
   integrity sha1-7cvMIg8a2y3U+gsvYbbMMI5iAGk=

@@ -6,7 +6,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 	labelStyle: {
-		fontSize: FontSize.SMALL,
+		fontSize: 18,
 		textTransform: "none",
 	},
 });

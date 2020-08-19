@@ -1,17 +1,12 @@
-import * as React from "react";
+import React from "react";
 import { create } from "react-test-renderer";
-import { MaterialTopTabBarProps } from "@react-navigation/material-top-tabs";
 import Animated from "react-native-reanimated";
-import { useNavigation } from "@react-navigation/native";
 
-import { HeraTabBar } from "../hera-tab-bar";
+import { CustomTabBar } from "../TabBar";
 
-// Disable warning for unnecessary .getNode() until react-native-tab-view fixes it
-jest.spyOn(global.console, "warn").mockImplementation(() => {});
-
-describe("HeraTabBar component", () => {
-	it("renders correctly with theme colors", () => {
-		const mockProps: MaterialTopTabBarProps = {
+describe("CustomTabBar component", () => {
+	it("renders correctly", () => {
+		const mockProps = {
 			layout: {
 				width: 320,
 				height: 42,
@@ -33,7 +28,6 @@ describe("HeraTabBar component", () => {
 				history: [],
 			},
 			navigation: {
-				...useNavigation(),
 				emit: jest.fn(),
 			},
 			descriptors: {
@@ -42,11 +36,10 @@ describe("HeraTabBar component", () => {
 					options: {
 						tabBarLabel: "A tab name",
 					},
-					navigation: useNavigation(),
 				},
 			},
 		};
-		const component = create(<HeraTabBar {...mockProps} />);
+		const component = create(<CustomTabBar {...mockProps} />);
 
 		expect(component.toJSON()).toMatchSnapshot();
 	});
