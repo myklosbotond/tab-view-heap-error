@@ -5979,20 +5979,20 @@ react-native-appearance@~0.3.3:
     invariant "^2.2.4"
     use-subscription "^1.0.0"
 
-react-native-gesture-handler@~1.6.1:
-  version "1.6.1"
-  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/react-native-gesture-handler/-/react-native-gesture-handler-1.6.1.tgz#678e2dce250ed66e93af409759be22cd6375dd17"
-  integrity sha1-Z44tziUO1m6Tr0CXWb4izWN13Rc=
+react-native-gesture-handler@~1.7.0:
+  version "1.7.0"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/react-native-gesture-handler/-/react-native-gesture-handler-1.7.0.tgz#0ef74a5ba836832e497dc49eb1ce58baa6c617e5"
+  integrity sha1-DvdKW6g2gy5JfcSesc5YuqbGF+U=
   dependencies:
     "@egjs/hammerjs" "^2.0.17"
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-reanimated@~1.9.0:
-  version "1.9.0"
-  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/react-native-reanimated/-/react-native-reanimated-1.9.0.tgz#38676c99dd585504fdc7331efb45e5f48ec7339a"
-  integrity sha1-OGdsmd1YVQT9xzMe+0Xl9I7HM5o=
+react-native-reanimated@~1.13.0:
+  version "1.13.0"
+  resolved "https://repo1.codespring.ro/artifactory/api/npm/npm/react-native-reanimated/-/react-native-reanimated-1.13.0.tgz#1ee5d27d34bd2cee7dfad4ae9a3673300872c917"
+  integrity sha1-HuXSfTS9LO59+tSumjZzMAhyyRc=
   dependencies:
     fbjs "^1.0.0"
 
